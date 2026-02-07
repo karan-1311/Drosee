@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Rose Day ❤️</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to bottom, #ff758c, #ff7eb3);
+        color: white;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 30px 15px;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+        animation: fadeIn 2s ease;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 30px;
+        animation: fadeIn 3s ease;
+    }
+
+    .question {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .option-btn {
+        background: rgba(255,255,255,0.9);
+        color: #b3003b;
+        border: none;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: transform 0.3s, background 0.3s;
+    }
+
+    .option-btn:hover {
+        transform: scale(1.05);
+        background: #fff;
+    }
+
+    .rose-img {
+        display: none;
+        margin-top: 20px;
+        animation: fadeIn 1.5s ease;
+    }
+
+    .rose-img img {
+        width: 80%;
+        max-width: 300px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    .message {
+        margin-top: 20px;
+        font-size: 20px;
+        display: none;
+        animation: fadeIn 2s ease;
+    }
+
+    .final {
+        margin-top: 25px;
+        font-size: 18px;
+        display: none;
+        animation: fadeIn 3s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🌹 Happy Rose Day 🌹My Dear jaan Dhiraj and uski doodhwali</h1>
+    <h2>To my beautiful part of life .Dhiraj and uske body counters ❤️</h2>
+
+    <div class="question">
+        Which colour of rose do you like most?Aur body count ka number bhi bata hi de?
+    </div>
+
+    <div class="options" id="options">
+        <button class="option-btn" onclick="showRose(1)">❤️ Red Rose</button>
+        <button class="option-btn" onclick="showRose(2)">💗 Pink Rose</button>
+        <button class="option-btn" onclick="showRose(3)">🤍 White Rose</button>
+    </div>
+
+    <!-- Rose Images -->
+    <!-- Rose Images -->
+<div class="rose-img" id="rose1">
+    <img src="pics/red.jpg" alt="Red Rose">
+    <div class="rose-text">
+        You chose the red rose ❤️But I choose You ise kaise bhul sakte ho red khoon se kuch yaad aaya seal<br>
+        A symbol of deep love & passion.
+    </div>
+</div>
+
+<div class="rose-img" id="rose2">
+    <img src="pics/pink.jpg" alt="Pink Rose">
+    <div class="rose-text">
+        You chose the pink rose But I choose You wo pink wala bole to vagina jo ek desert hai apna body count badhate hue khaya tha💗<br>
+        A symbol of sweetness & care.
+    </div>
+</div>
+
+<div class="rose-img" id="rose3">
+    <img src="pics/white.jpg" alt="White Rose">
+    <div class="rose-text">
+        You chose the white rose But I choose You jaise ki white wali🤍<br>
+        A symbol of purity & trust.
+    </div>
+</div>
+
+<div class="rose-img" id="rose3">
+    <img src="images/white.jpg" alt="White Rose">
+</div>
+
+    <div class="rose-img" id="rose3">
+        <img src="images/img2.jpg" alt="White Rose">
+    </d
+
+    <div class="message" id="message">
+        You chose this rose… and I choose you ❤️
+    </div>
+
+    <div class="final" id="final">
+        No matter which rose you like,<br>
+        you are my forever favourite 🌹❤️
+    </div>
+</div>
+
+<script>
+function showRose(number) {
+    // hide options
+    document.getElementById("options").style.display = "none";
+
+    // hide all roses
+    document.getElementById("rose1").style.display = "none";
+    document.getElementById("rose2").style.display = "none";
+    document.getElementById("rose3").style.display = "none";
+
+    // show selected rose
+    document.getElementById("rose" + number).style.display = "block";
+
+    // show message
+    document.getElementById("message").style.display = "block";
+
+    // show final message after delay
+    setTimeout(function () {
+        document.getElementById("final").style.display = "block";
+    }, 2000);
+}
+</script>
+
+</body>
+</html>>
+
+<body>
+  
+</body>
+
+</html>>
+
+<body>
+  
+</body>
+
+</html>>
+
+<body>
+  
+</body>
+
+</html>>
+
+<body>
+  
+</body>
+
+</html>>
+
+<body>
+  
+</body>
+
+</html>>
+
+<body>
+  
+</body>
+
+</html>
